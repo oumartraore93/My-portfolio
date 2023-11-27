@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500;700&display=swap');
+@import 'vars';
+@mixin footer($blue: blue, $flex:flex, $bold:bold,$px18:18px, $red:red, $center:center) {
+    color: $blue;
+    display: $flex;
+    font-weight: $bold;
+    font-size: $px18;
+    align-items: $center;
+    justify-content: $center;
+}
+
+*{
+/* Reset CSS */
+   font-family: $roboto;
+   margin:$px0;
+   padding: $px0;
+}
+   html, body{
+    height:$pc100;
+    } 
+    body{ 
+        text-align:$center; 
+        #main{ 
+            max-width:$px1519; 
+            min-height:$pc100; 
+            margin:$px0 $auto; 
+            position:$relative;
+            header{
+                .container-fluid{
+                    .row{
+                        height: $px50;
+                        :first-child{
+                            background-color: $green;
+                        }
+                        :nth-child(2){
+                            background-color: $yellow;
+                        }
+                        :last-child{
+                            background-color: $red;
+                        }
+                    }
+                }
+                h1{
+                    text-shadow: $px2 $px2 $px0 $blue;
+                }
+            }
+            nav{
+                background-color: $rgb234-226-226;
+                text-align: $center;
+                ul{
+                    padding: $px0;
+                    text-transform: $uppercase;
+                    letter-spacing: $px2;
+                    li{
+                        padding: $px10;
+                        a{
+                            color: $blue;
+                            font-size: $px18;
+                            font-weight: $lighter;
+                            transition: $transition-all $second05 $transition-ease;
+                        }
+                        a:hover{
+                            padding: $px10;
+                            color:$grey;
+                            background-color:$white;
+                            border-bottom: $px5 $solid $blue;
+                            transition: $transition-all $second05 $transition-ease;
+                        }
+                    }
+                }
+              
+            }
+            section{
+                .Title{
+                   transition: $transition-title;
+                }
+                .Title:hover{
+                  transform: $transform-title;
+                }
+            }
+            #index1{
+                #Hi{
+                   transition: $transition-Hi;
+                }
+                #Hi:hover{
+                  transform: $transform-Hi;
+                }
+            }
+            #index2{
+                #Photo{
+                    transition: $transition-photo;
+                }
+                #Photo:hover{
+                    transform: $transform-photo;
+                }
+            }
+            footer{ 
+                position:$absolute; 
+                bottom:$px0; 
+                width:$pc100; 
+                padding-top:$px50; 
+                height:$px50; 
+                .container-fluid{
+                    .row{
+                        display: $flex;
+                        height: $px50;
+                        // display: $flex;
+                        :first-child{
+                            // height: $px75;
+                            background-color: $green;
+                            display: $flex;
+                            align-items: $center;
+                            // justify-content: $center;
+                            justify-content: $space-around;
+                        }
+                        :nth-child(2){
+                            @include footer;
+                            background-color: $yellow;
+                        }
+                        :last-child{
+                            @include footer;
+                            background-color: $red;
+                        }
+                    }
+                }
+            }
+        }   
+   }   
+
+ 
+  
+
+
+
+
+ 
+
+
+
+

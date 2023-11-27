@@ -1,0 +1,47 @@
+// Variable for font
+$roboto:'Roboto', sans-serif;
+// Variables for size
+$px0: 0px;
+$px2: 2px;
+$px5: 5px;
+$px10: 10px;
+$px18:18px;
+$px50:50px;
+$px75:75px;
+$px100:100px;
+$px1519:1519px;
+$auto: auto;
+// Variables for percentage
+$pc100:100%;
+// Variables for positions
+$top: top;
+$center:center;
+$relative:relative;
+$absolute:absolute;
+// Variables for colors
+$green:green;
+$yellow: yellow;
+$red: red;
+$blue: blue;
+$grey: grey;
+$white: white;
+$rgb234-226-226:rgb(234,226, 226);
+// Others Variables
+$none:none;
+$uppercase: uppercase;
+$inline-block:inline-block;
+$solid: solid;
+$transition-all: all;
+$second05:0.5;
+$transition-ease:ease;
+$lighter:lighter;
+$bold:bold;
+$flex:flex;
+$space-around: space-around;
+// Variables for transition
+$transition-title: all 0.5s cubic-bezier(1, 0.33, 0, 0.85);
+$transform-title: translate(10px, 10px);
+$transition-photo: all 0.5s ease;
+$transform-photo:rotatez(360deg);
+$transition-Hi: all 0.5s cubic-bezier(1, 0.33, 0, 0.85);
+$transform-Hi: translate(50px, 100px);

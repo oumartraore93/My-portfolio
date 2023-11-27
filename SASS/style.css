@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500;700&display=swap");
+* {
+  /* Reset CSS */
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+}
+body #main {
+  max-width: 1519px;
+  min-height: 100%;
+  margin: 0px auto;
+  position: relative;
+}
+body #main header .container-fluid .row {
+  height: 50px;
+}
+body #main header .container-fluid .row :first-child {
+  background-color: green;
+}
+body #main header .container-fluid .row :nth-child(2) {
+  background-color: yellow;
+}
+body #main header .container-fluid .row :last-child {
+  background-color: red;
+}
+body #main header h1 {
+  text-shadow: 2px 2px 0px blue;
+}
+body #main nav {
+  background-color: rgb(234, 226, 226);
+  text-align: center;
+}
+body #main nav ul {
+  padding: 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+body #main nav ul li {
+  padding: 10px;
+}
+body #main nav ul li a {
+  color: blue;
+  font-size: 18px;
+  font-weight: lighter;
+  transition: all 0.5 ease;
+}
+body #main nav ul li a:hover {
+  padding: 10px;
+  color: grey;
+  background-color: white;
+  border-bottom: 5px solid blue;
+  transition: all 0.5 ease;
+}
+body #main section .Title {
+  transition: all 0.5s cubic-bezier(1, 0.33, 0, 0.85);
+}
+body #main section .Title:hover {
+  transform: translate(10px, 10px);
+}
+body #main #index1 #Hi {
+  transition: all 0.5s cubic-bezier(1, 0.33, 0, 0.85);
+}
+body #main #index1 #Hi:hover {
+  transform: translate(50px, 100px);
+}
+body #main #index2 #Photo {
+  transition: all 0.5s ease;
+}
+body #main #index2 #Photo:hover {
+  transform: rotatez(360deg);
+}
+body #main footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 50px;
+  height: 50px;
+}
+body #main footer .container-fluid .row {
+  display: flex;
+  height: 50px;
+}
+body #main footer .container-fluid .row :first-child {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body #main footer .container-fluid .row :nth-child(2) {
+  color: blue;
+  display: flex;
+  font-weight: bold;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+}
+body #main footer .container-fluid .row :last-child {
+  color: blue;
+  display: flex;
+  font-weight: bold;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
